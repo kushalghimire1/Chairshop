@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chair Shop</title>
 
- 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -16,28 +13,36 @@
 </head>
 <body>
 
-
   <nav class="navbar">
     <div class="logo">Chair Shop</div>
-    <a href="#products" class="nav-link">Shop</a>
+
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#products">Shop</a></li>
+    </ul>
   </nav>
 
-  <header class="hero">
+  <header class="hero" id="home">
     <div class="hero-text">
       <h1>We Design and Build Better Chairs, for a Better Life</h1>
+
       <p>
-      In a small shop in the heart of Bharatpur, we spend our days  perfectly seating on the chair.The result
-      is a perfect blend of beauty and comfort, that willm have a lasting impact on your health
+        In a small shop in the heart of Bharatpur, we spend our days creating
+        comfortable and stylish chairs. The result is a perfect blend of beauty
+        and comfort that has a lasting impact on your lifestyle.
       </p>
+
       <a href="#products" class="btn">Shop Chairs</a>
     </div>
 
-    <div class="testimonial-image">
-       <img src="assests/heroimage.jpg"alt="Modern Chair">
+    <div class="hero-image">
+      <img src="assests/heroimage.jpg" alt="Modern Chair">
     </div>
   </header>
 
-  <section class="features">
+  <section class="features" id="about">
     <h2>What Makes Our Chairs Special</h2>
 
     <div class="feature-container">
@@ -69,10 +74,10 @@
     </div>
   </section>
 
-  <section class="testimonial">
+  <section class="testimonial" id="services">
 
     <div class="testimonial-image">
-      <img src="assests/customers.jpg"alt="customers">
+      <img src="assests/customers.jpg" alt="Customers">
     </div>
 
     <div class="testimonial-content">
@@ -96,9 +101,8 @@
 
     <div class="product-grid">
 
-     
       <article class="product-card">
-           <img src="assests/chair1.jpg"alt="Chair 1">
+        <img src="assests/chair1.jpg" alt="Luxury Chair">
 
         <h3>Luxury Chair</h3>
 
@@ -110,13 +114,13 @@
         </ul>
 
         <div class="product-footer">
-          <span>250 R.S</span>
+          <span>Rs. 250</span>
           <button>Add to Cart</button>
         </div>
       </article>
 
       <article class="product-card">
-        <img src="assests/chair2.jpg"alt="Chair 2">
+        <img src="assests/chair2.jpg" alt="Modern Chair">
 
         <h3>Modern Chair</h3>
 
@@ -128,14 +132,13 @@
         </ul>
 
         <div class="product-footer">
-          <span>250 R.S</span>
+          <span>Rs. 250</span>
           <button>Add to Cart</button>
         </div>
       </article>
 
-    
       <article class="product-card">
-        <img src="assests/chair3.jpg"alt="Chair 3">
+        <img src="assests/chair3.jpg" alt="Classic Chair">
 
         <h3>Classic Chair</h3>
 
@@ -147,7 +150,7 @@
         </ul>
 
         <div class="product-footer">
-          <span>250 R.S</span>
+          <span>Rs. 250</span>
           <button>Add to Cart</button>
         </div>
       </article>
@@ -156,7 +159,9 @@
   </section>
 
   <footer>
-    <p>&copy; Copyrights © 2026 by Kushal Ghimire.Building Real world websites using HTML & CSS. Use for Learning Purposes Only</p>
+    <p>
+      © 2026 Kushal Ghimire | Building Real World Websites Using HTML & CSS
+    </p>
   </footer>
 
 </body>
